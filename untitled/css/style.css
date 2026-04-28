@@ -1,0 +1,139 @@
+.topbar {
+    position: relative;
+    width:350px;
+    height: 40px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.search-box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.search-box input {
+    width: 80%;
+    height: 100%;
+    max-width: 700px;
+    padding: 12px 20px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    transition: 0.2s;
+}
+.layout{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+}
+.sidebar {
+    position: fixed;
+    top: 120px;
+    left: 0;
+    width: 100px;
+    height: 100%;
+    background: #ffffff;
+    padding-top: 20px;
+    border-right: 1px solid #eee;
+    z-index: 900;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0 20px;
+}
+
+.sidebar li {
+    padding: 15px 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+.center{
+    display: flex;
+    justify-content: center;
+     padding: 140px 40px 40px;
+      margin-left: 20px;
+}
+.box-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.mosaic{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 180px;
+    width: 100%;
+    max-width: 1000px;
+    gap: 10px;
+}
+
+.box{
+    border-radius: 15px;
+}
+
+.box1{
+    grid-row: span 2;
+    background: purple;
+}
+.box2{
+    grid-row: span 3;
+    background: #030303;
+}
+.box3{
+    grid-row: span 2;
+    background: #be0000;
+}
+.box4{
+    grid-row: span 2;
+    background: #fa940e;
+}
+.box5{
+    grid-row: span 2;
+    background: #030303;
+}
+.box6{
+    grid-row: span 2;
+    background: #030303;
+}
+.box7{
+    grid-row: span 2;
+    background: #074244;
+}
+.box8{
+    grid-row: span 2;
+    background: #442102;
+}
+.box9{
+    grid-row: span 2;
+    background: #b2f398;
+}
+.box10{
+    grid-row: span 2;
+    background: #024427;
+}
+.box11{
+    grid-row: span 2;
+    background: #6e7070;
+}
+.box12{
+    grid-row: span 1;
+    background: #98fdff;
+}
+.box img{
+     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
